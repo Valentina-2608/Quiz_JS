@@ -12,10 +12,10 @@
 
 .app{
     width:50%;
-    height:200px;
+    height:400px;
     background-color: white;
     position:absolute;
-    top:200px;
+    top:100px;
     left:25%;
     border-radius: 10px;
 }
