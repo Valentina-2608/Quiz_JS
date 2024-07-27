@@ -36,8 +36,8 @@
 .question{width:96%;
     height:24px;
     padding:2%;
-    background-color: green;
     font-size:22px;
+    text-decoration: underline;
    
 }
 
