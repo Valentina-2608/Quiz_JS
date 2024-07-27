@@ -1,6 +1,12 @@
 /* style.css */
 
-
+.main{
+    width:1200px;
+    height:1000px;
+    background-color: lightgray;
+    margin:0 auto;
+    position: relative;
+}
     
 
 
