@@ -65,3 +65,18 @@ const questions = [
 
 
 ]
+
+
+let questionElement = document.querySelector('.question');
+let answersElement = document.querySelector('.answers');
+let nextButton = document.getElementById('next_btn'); 
+
+
+let currentQuestionIndex = 0;
+let score = 0;
+
+function startQuiz(){
+    currentQuestionIndex = 0;
+    score = 0;
+    nextButton.innerHTML = 'Next question';
+}
