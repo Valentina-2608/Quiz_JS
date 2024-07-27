@@ -10,6 +10,16 @@
 }
     
 
+.app{
+    width:50%;
+    height:200px;
+    background-color: white;
+    position:absolute;
+    top:200px;
+    left:25%;
+    border-radius: 10px;
+}
+
 
 
 
