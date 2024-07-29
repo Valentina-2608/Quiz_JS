@@ -84,6 +84,7 @@ function startQuiz(){
 
 
 function showQuestion(){
+    resetState();
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + "." + currentQuestion.
@@ -96,5 +97,12 @@ function showQuestion(){
     })
 }
 
+
+function resetState(){
+    nextButton.style.display = 'none';
+    while(answerButton.firstChild){
+        answerButton.removeChild(answerButton.firstChild);
+    }
+}
 
 startQuiz();
