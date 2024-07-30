@@ -129,6 +129,14 @@ function selectAnswer(event){
 
 }
 
+function showScore(){
+    resetState();
+    questionElement.innerHTML = `Your scored ${score} out of ${questions.length}!`;
+    nextButton.innerHTML = 'Play again';
+    nextButton.style.display = 'block';
+}
+
+
 
 function handleNextButton(){
     currentQuestionIndex++;
