@@ -82,3 +82,11 @@
 #next_btn:hover{
     cursor:pointer;
 }
+
+.correct{
+    background-color: #ADF0A3;
+}
+
+.incorrect{
+    background-color: #EC8080;
+}
