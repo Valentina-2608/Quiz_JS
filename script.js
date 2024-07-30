@@ -58,8 +58,8 @@ const questions = [
         answers:[
             { text: "Guatemala", correct: false },
             { text: "Honduras", correct: false },
-            { text: "Belize", correct: true },
-            { text: "Mexico", correct: false },
+            { text: "Belize", correct: false },
+            { text: "Mexico", correct: true },
         ]
     }
 
