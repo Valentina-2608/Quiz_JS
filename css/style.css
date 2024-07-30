@@ -62,12 +62,14 @@
     transition:background-color 0.5s ease-in-out;}
 
 
-.btn:hover{
+.btn:hover:not([disabled]){
     cursor: pointer;
     background-color: bisque;
 }
 
-
+.btn:disabled{
+    cursor: no-drop;
+}
 
 #next_btn{
     background-color: darkred;
